@@ -1,0 +1,15 @@
+.test {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 22px;
+  width: 333px;
+}
+
+.border {
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.color {
+  color: blue;
+}
