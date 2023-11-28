@@ -58,6 +58,8 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  margin-right: 76px
 }
 
 .logo::before {
@@ -74,6 +76,8 @@ img {
 .menu-items {
   display: flex;
   gap: 40px;
+
+  padding: 24px 0;
 }
 
 .menu-item {
@@ -91,9 +95,9 @@ img {
 
 
 /* address */
-address {
+/* address {
   display: flex;
-}
+} */
 
 .address {
   display: flex;
