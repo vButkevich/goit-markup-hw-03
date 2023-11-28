@@ -71,19 +71,37 @@ img {
   gap: 40px;
 }
 
+/*
+color: var(--IRIS, #4D5AE5);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px;
+*/
+/* 116.667% */
+/*
+letter-spacing: 0.54px;
+text-transform: uppercase;
+*/
+
 .logo {
   color: #4d5ae5;
+  color: var(--IRIS, #4D5AE5);
+
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  margin-right: 76px
 }
 
-.logo::before {
+.header-logo {
+  margin-right: 76px;
+}
+
+.header-logo::before {
   content: "";
   margin-right: 40px;
 }
@@ -383,7 +401,14 @@ button:hover,
 
 /* footer */
 .footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #2e2f42;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-span {
@@ -391,6 +416,9 @@ button:hover,
 }
 
 .footer-text {
+
+  max-width: 264px;
+
   line-height: 1.5;
   color: var(--CLOUD, #F4F4FD);
 
