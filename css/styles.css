@@ -11,14 +11,33 @@ ul {
   list-style-type: none;
 }
 
+img {
+  display: block;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  /* для центрування контейнера на сторінці*/
+  /* Для цього класу заданий стиль */
+  padding: 0 15px;
+  /*для налаштування внутрішніх відступів для контенту (можна використовувати запис */
+  /*
+  padding: 0 15px 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+*/
+}
 
 .header {
-
+  /*
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+*/
+  border-bottom: 1px solid #e7e9fc
 }
 
 .header-items {
@@ -27,6 +46,7 @@ ul {
 
 nav {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 
