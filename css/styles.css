@@ -230,12 +230,12 @@ button:hover,
 */
 .benefits-item {
   /* width: 240px; */
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
+  /* flex-basis: calc((100% - 72px) / 4); */
 }
 
 .benefits-item-header {
   margin-bottom: 8px;
-  margin-bottom: 72px;
 
   font-weight: 500;
   font-size: 20px;
@@ -267,6 +267,8 @@ button:hover,
 }
 
 .team-header {
+  margin-bottom: 72px;
+
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
