@@ -15,6 +15,13 @@ img {
   display: block;
 }
 
+
+.section {
+  padding-top: 188px;
+  padding-bottom: 188px;
+  /* padding: 188px 0; */
+}
+
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -106,7 +113,6 @@ img {
   gap: 40px;
 }
 
-
 .address-item {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -117,8 +123,6 @@ img {
 :focus {
     color: #404bbf;
 } */
-
-
 .address-link {
   color: #434455;
 }
@@ -132,12 +136,9 @@ img {
 
 /* section */
 .hero {
-
   /* flex-shrink: 0; */
   background-color: #2e2f42;
-
 }
-
 
 .hero-header {
 
