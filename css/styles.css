@@ -333,7 +333,20 @@ button:hover,
 
 
 /* section.#4: Portfolio */
+
+.section-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.portfolio-header {
+  margin-bottom: 72px;
+}
+
 .portfolio-items {
+  column-gap: 24px;
+  row-gap: 48px;
+
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -341,6 +354,14 @@ button:hover,
 
 .portfolio-item {
   margin: 12px;
+}
+
+.portfolio-item-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+
 }
 
 .portfolio-item-header {
