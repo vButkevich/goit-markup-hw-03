@@ -29,7 +29,7 @@ a {
 
 .container {
   width: 1158px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   /* для центрування контейнера на сторінці*/
   /* Для цього класу заданий стиль */
   padding: 0 15px;
@@ -234,6 +234,7 @@ button:hover,
 }
 
 .benefits-items {
+  width: 1158px;
   display: flex;
   gap: 24px;
 
