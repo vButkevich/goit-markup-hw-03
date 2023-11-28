@@ -275,11 +275,11 @@ button:hover,
   color: #2e2f42;
 }
 
-/*
+
 .team-items {
   gap: 24px;
 }
-*/
+
 /*
 Для списку в класі заданий стиль gap: 24px;
 для визначення розмірів відступів між елементами списку
@@ -287,7 +287,7 @@ button:hover,
   для останього li використовуємо margin-right: 0 для обнулення відступів)
 */
 .team-item {
-  gap: 24px;
+  /* gap: 24px; */
   /* margin: 12px; */
   background-color: #FFFFFF;
 
@@ -310,6 +310,8 @@ button:hover,
 
 /* ToDo: makw as common class .item-header */
 .team-item-header {
+  text-align: center;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -318,6 +320,8 @@ button:hover,
 }
 
 .team-item-text {
+  text-align: center;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
