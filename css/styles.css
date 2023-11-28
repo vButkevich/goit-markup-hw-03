@@ -195,17 +195,35 @@ button:hover,
 /* section.#2: Benefits */
 .benefits {
   display: flex;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .benefits-items {
   display: flex;
+  gap: 24px;
+  /*
+  для визначення розмірів відступів між елементами списку 
+  (можна використовувати margin-right: 24px для тега li у класі,
+   для останього li використовуємо margin-right: 0 для обнулення відступів)
+   */
 }
 
+/*
+Для першого елементу списку в класі заданий стиль width: calc((100% - 72px) / 4);
+для визначення ширини пункту списку (від загальної ширини екрану віднімаємо суму відступів між пунктами і ділимо це на кількість пунктів списку) 
+(можна також використовувати width calc((100% - 3 * 24px) / 4) 
+або flex-basis: calc((100% - 3 * 24px) / 4) 
+або flex-basis: calc((100% - 72px) / 4))
+*/
 .benefits-item {
-  width: 240px
+  /* width: 240px; */
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .benefits-item-header {
+  margin-bottom: 8px;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
