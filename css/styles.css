@@ -29,7 +29,7 @@ a {
 
 .container {
   width: 1158px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   /* для центрування контейнера на сторінці*/
   /* Для цього класу заданий стиль */
   padding: 0 15px;
@@ -234,7 +234,7 @@ button:hover,
 }
 
 .benefits-items {
-  width: 1158px;
+  /* width: 1158px; */
   display: flex;
   gap: 24px;
 
@@ -260,15 +260,17 @@ button:hover,
   width: calc((100% - 72px) / 4);
 }
 
+/* width: calc((100% - 3 * 24px) / 4); */
+/* flex-basis: calc((100% - 3 * 24) / 4); */
+/* 
 .benefits-item:first-child {
-  /* width: calc((100% - 3 * 24px) / 4); */
-  /* flex-basis: calc((100% - 3 * 24) / 4); */
   width: calc((100% - 72px) / 4);
 }
+ */
 
-.benefits-item-first-child {
+/* .benefits-item-first-child {
   width: calc((100% - 3 * 24px) / 4);
-}
+} */
 
 .benefits-item-header {
   margin-bottom: 8px;
