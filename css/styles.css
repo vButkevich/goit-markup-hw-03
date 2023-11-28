@@ -140,6 +140,10 @@ img {
   background-color: #2e2f42;
 }
 
+.visually-hidden {
+  visibility: hidden;
+}
+
 .hero-header {
 
   color: var(--WHITE, #FFF);
