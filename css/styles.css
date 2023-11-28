@@ -252,15 +252,16 @@ button:hover,
 або flex-basis: calc((100% - 3 * 24px) / 4) 
 або flex-basis: calc((100% - 72px) / 4))
 */
+.benefits-items:first-child {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
 .benefits-item {
   /* width: 240px; */
-  /* width: calc((100% - 3 * 24px) / 4); */
+  width: calc((100% - 3 * 24px) / 4);
   /* flex-basis: calc((100% - 72px) / 4); */
 }
 
-.benefits-item:first-child {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-}
 
 .benefits-item-header {
   margin-bottom: 8px;
