@@ -229,7 +229,7 @@ button:hover,
 
 /* section.#2: Benefits */
 .benefits {
-  display: flex;
+  /* display: flex; */
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -257,12 +257,13 @@ button:hover,
 .benefits-item {
   /* width: 240px; */
   /* flex-basis: calc((100% - 72px) / 4); */
-  /* width: calc((100% - 72px) / 4); */
+  width: calc((100% - 72px) / 4);
 }
 
 .benefits-item:first-child {
   /* width: calc((100% - 3 * 24px) / 4); */
-  flex-basis: calc((100% - 3 * 24) / 4);
+  /* flex-basis: calc((100% - 3 * 24) / 4); */
+  width: calc((100% - 72px) / 4);
 }
 
 .benefits-item-first-child {
