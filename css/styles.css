@@ -234,7 +234,8 @@ button:hover,
 }
 
 .benefits-item-header {
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
+  margin-bottom: 72px;
 
   font-weight: 500;
   font-size: 20px;
@@ -274,9 +275,37 @@ button:hover,
   color: #2e2f42;
 }
 
+/*
+.team-items {
+  gap: 24px;
+}
+*/
+/*
+Для списку в класі заданий стиль gap: 24px;
+для визначення розмірів відступів між елементами списку
+ (можна використовувати margin-right: 24px для тега li у класі,
+  для останього li використовуємо margin-right: 0 для обнулення відступів)
+*/
 .team-item {
-  margin: 12px;
+  gap: 24px;
+  /* margin: 12px; */
   background-color: #FFFFFF;
+
+  border-radius: 0px 0px 4px 4px;
+  /*
+  Для першого елементу списку в класі заданий стиль border-radius: 0px 0px 4px 4px;
+    для визначення заокруглень внизу блока (можна використовувати border-top-left-radius: 0px; border-top-right-radius: 0px; border-top-right-radius: 4px; border-bottom-left-radius:4px; )
+    */
+}
+
+.team-item-info {
+  padding: 32px 0
+    /*(можна використовувати аналог 
+  padding: 32px 0 32px 
+  або 
+  padding-top: 32px; 
+  padding-bottom: 32px; 
+  )*/
 }
 
 /* ToDo: makw as common class .item-header */
