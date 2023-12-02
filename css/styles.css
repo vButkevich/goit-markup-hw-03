@@ -83,10 +83,30 @@ img {
 }
 
 /* #endregion: base */
+.info {
+  position: fixed;
+  left: 0px;
+  bottom: 4px;
+  border: 1px solid;
+  display: block;
+  width: 100%;
+}
 
+.version {
+  position: fixed;
+  right: 0px;
+  top: 4px;
+  display: block;
+  font-size: 9px;
+  background-color: orange;
+  padding: 2px 8px;
+}
 
 /* #region: header */
 .header {
+  position: sticky;
+  top: -1;
+
   /* position: fixed; */
 
   background: var(--WHITE, #FFF);
@@ -173,8 +193,13 @@ img {
 
 /* #region: section-hero  */
 .hero {
+  background-image:
+    linear-gradient(to bottom, #2E2F42B2, #2E2F42B2),
+    url(../images/people-office.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1440px 600px;
   background-color: #2e2f42;
-  /* from section->: padding: 188px 0; */
 }
 
 .hero-header {
@@ -231,6 +256,72 @@ img {
   display: flex;
   gap: 24px;
 }
+
+
+.benefits-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 112px;
+  /* flex-shrink: 0; */
+  border-radius: 4px;
+  border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+  background: var(--CLOUD, #F4F4FD);
+  margin-bottom: 8px;
+
+}
+
+.benefits-icon {
+  width: 64px;
+  height: 64px;
+  /* fill: #2E2F42; */
+  box-sizing: border-box;
+}
+
+.social-links {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  background-color: #4D5AE5;
+  width: 40px;
+  height: 40px;
+  /* flex-shrink: 0; */
+  /* fill: var(--IRIS, #4D5AE5); */
+
+}
+
+.social-icon {
+  width: 18px;
+  height: 16px;
+  fill: #F4F4FD;
+}
+
+.social-icon-box:hover,
+.social-icon-box:focus {
+  background-color: #31D0AA;
+}
+
+/*
+.social-icon:hover,
+.social-icon:focus {
+}
+ */
+
+/* .benefits-icon:hover,
+.benefits-icon:focus {
+  fill: red;
+  cursor: pointer;
+} */
 
 .benefits-item {
   /* width: 240px; */
@@ -414,6 +505,8 @@ img {
 
 /* #region:footer */
 .footer {
+  display: flex;
+
   /* position: fixed; */
   padding-top: 100px;
   padding-bottom: 100px;
@@ -430,7 +523,6 @@ img {
 }
 
 .footer-text {
-
   max-width: 264px;
   color: var(--CLOUD, #F4F4FD);
 
@@ -442,7 +534,6 @@ img {
   line-height: 24px;
   /* 150% */
   letter-spacing: 0.32px;
-
 }
 
 text {
@@ -455,6 +546,21 @@ text {
   letter-spacing: 0.02em;
 }
 
+
+.social-media-header {
+  color: var(--WHITE, #FFF);
+
+  /* Body Medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 0.32px;
+
+  margin-bottom: 16px;
+}
 
 /*
 .logo-box {
